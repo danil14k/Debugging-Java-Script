@@ -1,3 +1,3 @@
 function cambiarMensaje() {
-    document.getElementById("mensaj").innerText = "¡Hola Mundo desde JavaScript!";
+    document.getElementById("mensaje").innerText = "¡Hola Mundo desde JavaScript!";
 }
