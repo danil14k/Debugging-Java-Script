@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="validacion_erronea.js"></script>
+    <title>Validación</title>
+</head>
+<body>
+    <form onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="Nombre >= 3 carácteres.">
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" placeholder="formato: a@a.a">
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+</body>
+</html>
